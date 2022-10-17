@@ -1,0 +1,15 @@
+
+.foto {
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+
+.foto:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+.iconos {
+    font-size: 200px;
+    color: white;
+    }
+    

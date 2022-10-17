@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+.nav-item {
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  font-size: 20px;
+  color: #ffc107; }
+
+.nav-item a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 8px;
+  color: yellow; }
+
+.nav-item a:hover {
+  color: #ffc107;
+  text-decoration: overline;
+  transition: 0.5s; }
+
+.nav-item a:not(.menu-link) {
+  color: white; }
+
+.item1 {
+  animation-delay: 1s; }
+
+.item2 {
+  animation-delay: 0.8s; }
+
+.item3 {
+  animation-delay: 0.6s; }
+
+.item4 {
+  animation-delay: 0.4s; }
+
+.item5 {
+  animation-delay: 0.2s; }
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px); } }
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alumni Sans Pinstripe', sans-serif; }
+
+*::selection {
+  background-color: #d3d36d;
+  color: black; }
+
+body {
+  background-image: url("/assets/Bu2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1 {
+  color: white; }
+
+h3 {
+  color: white; }
+
+h5 {
+  color: white; }
+
+.hr {
+  color: white; }
+
+.container {
+  min-height: calc(100vh - 50px - 50px); }
+
+.container-fluid {
+  max-width: 992px; }
+
+.copy {
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  font-size: 14px; }
+
+.foto {
+  overflow: hidden;
+  transition: all 400ms ease; }
+
+.foto:hover {
+  transform: scale(1.15);
+  transition: 0.5s; }
+
+.iconos {
+  font-size: 200px;
+  color: white; }
+
+.carta {
+  color: white;
+  font-size: 20px;
+  padding: 0%;
+  list-style-type: none;
+  text-shadow: 2px 2px black; }
+
+.logo {
+  overflow: hidden;
+  transition: all 400ms ease; }
+
+.logo:hover {
+  transform: scale(1.15);
+  transition: 0.5s; }
+
+.form-control:focus {
+  background: #524a4a;
+  color: white; }

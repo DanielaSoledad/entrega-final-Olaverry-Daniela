@@ -1,0 +1,14 @@
+{
+  "name": "tercer-entrega-olaverry-daniela",
+  "version": "1.0.0",
+  "description": "buracco",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/estyle.css -w"
+  },
+  "author": "olaverry daniela",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

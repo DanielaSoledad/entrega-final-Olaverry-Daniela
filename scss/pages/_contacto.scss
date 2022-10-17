@@ -1,0 +1,14 @@
+.logo {
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+
+.logo:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.form-control:focus {
+    background: rgb(82, 74, 74);
+    color: white;
+}
